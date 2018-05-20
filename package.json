@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "deploy:firebase": "ng build --prod && firebase deploy",
-    "deploy:gh": "ng build --base-href='https://kousiksiddhu.github.io/gigi-bot/gigi-bot' && sudo ngh"
+    "deploy:gh": "ng build --base-href='https://kousiksiddhu.github.io/gigi-bot/' && sudo ngh"
 
   },
   "private": true,

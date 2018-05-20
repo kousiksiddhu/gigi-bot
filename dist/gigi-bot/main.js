@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".bg-container {\n    background: url(\"https://kousiksiddhu.github.io/gigi-bot/gigi-bot/assets/background.jpg\");\n    height: 100vh;\n    background-position: center;\n    background-size: cover;\n}"
+module.exports = ".bg-container {\n    background: url(\"/assets/background.jpg\");\n    height: 100vh;\n    background-position: center;\n    background-size: cover;\n    overflow: auto;\n}\n\n@media screen and (min-width: 768px){\n    .container{\n        margin-right: 50%;\n        width: 40%;\n    }\n}"
 
 /***/ }),
 

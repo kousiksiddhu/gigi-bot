@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".bg-container {\n    background: url(\"https://kousiksiddhu.github.io/gigi-bot/assets/background.jpg\");\n    height: 100vh;\n    background-position: center;\n    background-size: cover;\n    overflow: auto;\n}\n\n@media screen and (min-width: 768px){\n    .container{\n        margin-right: 50%;\n        width: 40%;\n    }\n}"
 
 /***/ }),
 
@@ -41,7 +41,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<chat-dialog></chat-dialog>"
+module.exports = "<div class=\"bg-container\">\n    <div class=\"container\">\n        <chat-dialog></chat-dialog>\n    </div>\n</div>"
 
 /***/ }),
 
@@ -212,7 +212,7 @@ var ChatService = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".message {\n    border-radius: 50px;\n    margin: 0 15px 10px;\n    padding: 15px 20px;\n    position: relative;\n    font-weight: bold;\n}\n.message.to {\n    background-color: #2095FE;\n    color: #fff;\n    margin-left: 100px;\n    text-align: right;\n}\n.message.from {\n    background-color: #E5E4E9;\n    color: #363636;\n    margin-right: 100px;\n\n}\n.message.to + .message.to,\n.message.from + .message.from {\nmargin-top: -10px;\n}"
+module.exports = "h1 {\n    color: #fff;\n    font-weight: bold;\n}\nlabel,input{\n    color: #fff;\n}\n.message {\n    border-radius: 50px;\n    margin: 0 15px 10px;\n    padding: 15px 20px;\n    position: relative;\n    font-weight: bold;\n}\n.message.to {\n    background-color: #2095FE;\n    color: #fff;\n    margin-left: 100px;\n    text-align: right;\n}\n.message.from {\n    background-color: #E5E4E9;\n    color: #363636;\n    margin-right: 100px;\n\n}\n.message.to + .message.to,\n.message.from + .message.from {\nmargin-top: -10px;\n}"
 
 /***/ }),
 
@@ -223,7 +223,7 @@ module.exports = ".message {\n    border-radius: 50px;\n    margin: 0 15px 10px;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h1>Angular Bot</h1>\n\n<ng-container *ngFor=\"let message of messages\">\n\n  <div class=\"message\" [ngClass]=\"{ 'from': message.sentBy === 'bot',\n                                    'to':   message.sentBy === 'user' }\">\n    {{ message.content }}\n  </div>\n\n</ng-container>\n\n\n<label for=\"nameField\">Your Message</label>\n\n\n<input [(ngModel)]=\"formValue\" (keyup.enter)=\"sendMessage()\" type=\"text\">\n\n<button (click)=\"sendMessage()\">Send</button>"
+module.exports = "<h1>GiGi Bot</h1>\n\n<ng-container *ngFor=\"let message of messages\">\n\n  <div class=\"message\" [ngClass]=\"{ 'from': message.sentBy === 'bot',\n                                    'to':   message.sentBy === 'user' }\">\n    {{ message.content }}\n  </div>\n\n</ng-container>\n\n\n<label for=\"nameField\">Your Message</label>\n\n\n<input [(ngModel)]=\"formValue\" (keyup.enter)=\"sendMessage()\" type=\"text\">\n\n<button (click)=\"sendMessage()\">Send</button>"
 
 /***/ }),
 
